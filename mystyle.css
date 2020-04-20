@@ -3,7 +3,6 @@
 
 body{	
 	font-family: Raleway;
-
 	font-size: 16px;
 	color: #585858;
 }
@@ -14,15 +13,12 @@ div{
 
 header{
 	padding: 1rem 1rem 0.1rem 1rem;
-	background-color: #eee;
+	background-color: #222;
+	color: white;
 }
 
 p{
 	color: #999;
-}
-
-section{
-	padding: 1rem 1rem 0.1rem 1rem;
 }
 
 
@@ -46,16 +42,15 @@ img{
 	max-width: 100%;
 }
 
-.register{
-	background-color: #eee;
+.padding-0{
+    padding-right:0;
+    padding-left:0;
 }
 
-.copyright{
-	background-color: #333;
-	text-align: center;
-	padding: 2rem;
-	color: #ddd;
-	
+.vertical{
+	padding-top: 0;
+	padding-bottom: 0;
+}
 }
 /* responsive */
 
