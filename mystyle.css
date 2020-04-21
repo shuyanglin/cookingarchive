@@ -8,7 +8,7 @@ body{
 }
 
 div{
-	padding: 1rem 1rem;
+	padding: 0 rem;
 }
 
 header{
@@ -40,11 +40,12 @@ p{
 
 img{
 	max-width: 100%;
+	border: 2px solid #fff;
 }
 
 .padding-0{
-    padding-right:0;
-    padding-left:0;
+    /*padding-right:0;*/
+    /*padding-left:0;*/
 }
 
 .vertical{
@@ -56,11 +57,15 @@ img{
 .dishname{
 	position: absolute;
 	margin: 0.5rem 0 0 0.5rem;
-	font-size: 1.8rem;
+	font-size: 0.8rem;
 	color: white;
 }
 
 .cover{
+	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+
 	position: absolute;
 	opacity: 0.7;
 	width: 100%;
@@ -70,17 +75,22 @@ img{
 }
 
 .hashtag, .note{
+	font-size: 0.4rem;
 	position: absolute;
-	margin: 1rem 0 0 1rem;
+	margin: 0.1rem 0 0 0.5rem;
 	top: 50%;
 	text-align: center, center;
 	color: black;
 	background-color: white;
-	padding: 0.5rem;
+	padding: 0.1rem;
 }
 
 .note{
-	top: 70%;
+	top: 65%;
+}
+
+img{
+
 }
 
 /* responsive */
