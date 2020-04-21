@@ -56,7 +56,7 @@ img{
 .dishname{
 	position: absolute;
 	margin: 0.5rem 0 0 0.5rem;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	color: white;
 }
 
@@ -67,6 +67,20 @@ img{
 	height: 20%;
 	/*background-color: black;*/
 	background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.hashtag, .note{
+	position: absolute;
+	margin: 1rem 0 0 1rem;
+	top: 50%;
+	text-align: center, center;
+	color: black;
+	background-color: white;
+	padding: 0.5rem;
+}
+
+.note{
+	top: 70%;
 }
 
 /* responsive */
